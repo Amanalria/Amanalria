@@ -1,0 +1,27 @@
+name: Daily Activity Sync
+
+on:
+  schedule:
+    # Runs daily at 00:00 UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-activity:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Auto-update Activity Log
+        run: |
+          mkdir -p .github/logs
+          echo "Daily sync pulse: $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> .github/logs/activity.log
+          git config --local user.email "amanalria@users.noreply.github.com"
+          git config --local user.name "Amanalria"
+          git add .github/logs/activity.log
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore(sync): automated daily activity pulse [skip ci]"
+          git push origin main
