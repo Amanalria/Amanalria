@@ -83,6 +83,16 @@
 
 ---
 
+---
+
+### Achievements
+
+<div align="center">
+  <a href="https://github.com/Amanalria?tab=achievements">
+    <img src="https://github-profile-trophy.vercel.app/?username=Amanalria&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" alt="Aman Alria GitHub Trophies" width="98%" />
+  </a>
+</div>
+
 ### Contribution Heatmap
 
 <div align="center">
