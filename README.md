@@ -85,11 +85,20 @@
 
 ---
 
-### Achievements
+### Official GitHub Achievements
 
 <div align="center">
   <a href="https://github.com/Amanalria?tab=achievements">
-    <img src="https://github-profile-trophy.vercel.app/?username=Amanalria&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" alt="Aman Alria GitHub Trophies" width="98%" />
+    <img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="85" height="85" alt="YOLO Achievement" />
+  </a>
+  <a href="https://github.com/Amanalria?tab=achievements">
+    <img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="85" height="85" alt="Quickdraw Achievement" />
+  </a>
+  <a href="https://github.com/Amanalria?tab=achievements">
+    <img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="85" height="85" alt="Pull Shark Achievement" />
+  </a>
+  <a href="https://github.com/Amanalria?tab=achievements">
+    <img src="https://github.githubassets.com/assets/pair-extraordinaire-default-76945842886a.png" width="85" height="85" alt="Pair Extraordinaire Achievement" />
   </a>
 </div>
 
